@@ -28,7 +28,7 @@
 #include "messages.hh"
 #include "ofx_utilities.hh"
 
-#ifdef __WIN32__
+#ifdef _WIN32
 # define DIRSEP "\\"
 #else
 # define DIRSEP "/"
@@ -298,7 +298,7 @@ std::string get_tmp_dir()
   if (var) return var;
   var = getenv("TEMP");
   if (var) return var;
-#ifdef __WIN32__
+#ifdef _WIN32
   return "C:\\";
 #else
   return "/tmp";
