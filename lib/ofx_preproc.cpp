@@ -313,8 +313,12 @@ int ofx_proc_file(LibofxContextPtr ctx, const char * p_filename)
 #endif
             char * outchar = iconv_buffer;
             int iconv_retval = iconv (conversion_descriptor,
-                                      &inchar, &inbytesleft,
-                                      &outchar, &outbytesleft);
+#ifdef _WIN32 //Win32's iconv implementation takes a const char** inchar
+                                      &inchar,
+#else
+                                      const_cast<char**>(&inchar),
+#endif
+                                      &inbytesleft, &outchar, &outbytesleft);
             if (iconv_retval == -1)
             {
               message_out(ERROR, "ofx_proc_file(): Iconv conversion error");
