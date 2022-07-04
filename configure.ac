@@ -346,7 +346,17 @@ build_ofxdump=no
 build_ofxconnect=no
 
 if test x$tools = xyes ; then
-	build_ofx2qif=yes
+	# https://github.com/libofx/libofx/pull/47
+	AC_EGREP_CPP([yes],
+	[
+		#ifdef _MSC_VER
+			yes
+		#endif
+	],
+	[build_ofx2qif=no],
+	[build_ofx2qif=yes]
+	)
+
 	build_ofxdump=yes
 
 	if test "$libcurl_available" = yes; then
