@@ -55,6 +55,7 @@ set (SRC_SOURCES
          lib/ofx_container_security.cpp
          lib/ofx_container_statement.cpp
          lib/ofx_container_account.cpp
+         lib/ofx_container_position.cpp
          lib/ofx_container_transaction.cpp
          lib/ofx_containers_misc.cpp
          lib/ofx_request.cpp
