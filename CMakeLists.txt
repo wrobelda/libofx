@@ -17,6 +17,7 @@ include_directories(
     inc
     ${OPENSP_INCLUDES}
     ${CMAKE_INSTALL_PREFIX}/include
+    "C:\\vcpkg\\installed\\x64-windows\\include"
 )
 
 add_definitions(
