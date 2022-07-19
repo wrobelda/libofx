@@ -1,7 +1,7 @@
 #ifndef _getopt_h
 #define _getopt_h
 
-#ifndef _MSC_VER
+#if !defined(_MSC_VER) && !(defined(__APPLE__) || defined(__MACOSX__))
 #include <getopt.h>
 #else
 struct option {
