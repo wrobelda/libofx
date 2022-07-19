@@ -146,7 +146,7 @@ time_t ofxdate_to_time_t(const string ofxdate)
   std::time(&temptime);
   local_offset = difftime(mktime(localtime(&temptime)), mktime(gmtime(&temptime)));
   /* daylight is set to 1 if the timezone indicated by the environment (either TZ or /etc/localtime) uses daylight savings time (aka summer time). We use it here to provisionally set tm_isdst. */
-  time.tm_isdst = daylight;
+  time.tm_isdst = 1;
 
   if (ofxdate.size() != 0)
   {
