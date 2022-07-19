@@ -1,0 +1,96 @@
+LibOFX INFO: libofx_proc_file(): File format not specified, autodetecting...
+LibOFX INFO: libofx_proc_file(): Detected file format: OFX (Open Financial eXchange (OFX or QFX))
+LibOFX STATUS: find_dtd():DTD found: ../../dtd/opensp.dcl
+LibOFX STATUS: find_dtd():DTD found: ../../dtd/ofx160.dtd
+LibOFX INFO: Created OfxDummyContainer to hold unsupported aggregate SIGNONMSGSRSV1
+(Above message occurred on Line 4, Column 1)
+LibOFX INFO: Created OfxDummyContainer to hold unsupported aggregate SONRS
+(Above message occurred on Line 5, Column 1)
+ofx_proc_status():
+    Ofx entity this status is relevant to: SONRS 
+    Severity: INFO
+    Code: 0, name: Success
+    Description: The server successfully processed the request.
+
+LibOFX INFO: Created OfxDummyContainer to hold unsupported aggregate BANKMSGSRSV1
+(Above message occurred on Line 14, Column 1)
+LibOFX INFO: Created OfxDummyContainer to hold unsupported aggregate STMTTRNRS
+(Above message occurred on Line 15, Column 1)
+ofx_proc_status():
+    Ofx entity this status is relevant to: STMTTRNRS 
+    Severity: INFO
+    Code: 0, name: Success
+    Description: The server successfully processed the request.
+
+LibOFX INFO: Created OfxDummyContainer to hold unsupported aggregate CREDITCARDMSGSRSV1
+(Above message occurred on Line 46, Column 1)
+LibOFX INFO: Created OfxDummyContainer to hold unsupported aggregate CCSTMTTRNRS
+(Above message occurred on Line 47, Column 1)
+ofx_proc_status():
+    Ofx entity this status is relevant to: CCSTMTTRNRS 
+    Severity: INFO
+    Code: 0, name: Success
+    Description: The server successfully processed the request.
+
+ofx_proc_account():
+    Account ID: 000000123  123456
+    Account name: Bank account 123456
+    Account type: CHECKING
+    Default Currency: USD
+    Bank ID: 000000123
+    Account #: 123456
+
+ofx_proc_statement():
+    Default Currency: USD
+    Account ID: 000000123  123456
+    Start date of this statement: Mon Aug  1 11:59:00 2005 CEST
+    End date of this statement: Thu Sep  1 00:51:53 2005 CEST
+    Ledger balance: 2156.56
+    Ledger balance date: Wed Aug 31 16:51:53 2005 CEST
+
+ofx_proc_transaction():
+    Account ID : 000000123  123456
+    Transaction type: POS: Point of sale debit or credit (Note: Depends on signage of amount)
+    Date posted: Wed Aug 24 08:00:00 2005 CEST
+    Total money amount: -80.00
+    # of units: 80.00
+    Unit price: 1.00
+    Financial institution's ID for this transaction: 219378
+    Name of payee or transaction description: FrogKick Scuba Gear
+
+ofx_proc_account():
+    Account ID: 123412341234 
+    Account name: Credit card 123412341234
+    Account type: CREDITCARD
+    Default Currency: USD
+    Account #: 123412341234
+
+ofx_proc_statement():
+    Default Currency: USD
+    Account ID: 123412341234 
+    Start date of this statement: Mon Aug  1 11:59:00 2005 CEST
+    End date of this statement: Thu Sep  1 00:51:53 2005 CEST
+    Ledger balance: -562.00
+    Ledger balance date: Wed Aug 31 16:51:53 2005 CEST
+
+ofx_proc_transaction():
+    Account ID : 123412341234 
+    Transaction type: INT: Interest earned or paid (Note: Depends on signage of amount)
+    Date posted: Thu Aug 11 08:00:00 2005 CEST
+    Total money amount: -23.00
+    # of units: 23.00
+    Unit price: 1.00
+    Financial institution's ID for this transaction: 219867
+    Name of payee or transaction description: Interest Charge
+
+ofx_proc_transaction():
+    Account ID : 123412341234 
+    Transaction type: CREDIT: Generic credit
+    Date posted: Thu Aug 11 08:00:00 2005 CEST
+    Total money amount: 350.00
+    # of units: -350.00
+    Unit price: 1.00
+    Financial institution's ID for this transaction: 219868
+    Name of payee or transaction description: Payment - Thank You
+
+PASS ../doc/ofx_sample_files/ofx-2.1.1-sect-16.5.3.2.ofx (exit status: 0)

@@ -1,0 +1,36 @@
+LibOFX INFO: libofx_proc_file(): File format not specified, autodetecting...
+LibOFX INFO: libofx_proc_file(): Detected file format: OFX (Open Financial eXchange (OFX or QFX))
+LibOFX STATUS: find_dtd():DTD found: ../../dtd/opensp.dcl
+LibOFX STATUS: find_dtd():DTD found: ../../dtd/ofx160.dtd
+LibOFX INFO: Created OfxDummyContainer to hold unsupported aggregate SIGNONMSGSRSV1
+(Above message occurred on Line 2, Column 1)
+LibOFX INFO: Created OfxDummyContainer to hold unsupported aggregate SONRS
+(Above message occurred on Line 3, Column 1)
+ofx_proc_status():
+    Ofx entity this status is relevant to: SONRS 
+    Severity: INFO
+    Code: 0, name: Success
+    Description: The server successfully processed the request.
+
+LibOFX INFO: Created OfxDummyContainer to hold unsupported aggregate SIGNUPMSGSRSV1
+(Above message occurred on Line 12, Column 1)
+LibOFX INFO: Created OfxDummyContainer to hold unsupported aggregate ACCTINFOTRNRS
+(Above message occurred on Line 13, Column 1)
+ofx_proc_status():
+    Ofx entity this status is relevant to: ACCTINFOTRNRS 
+    Severity: INFO
+    Code: 0, name: Success
+    Description: The server successfully processed the request.
+
+LibOFX INFO: Created OfxDummyContainer to hold unsupported aggregate ACCTINFORS
+(Above message occurred on Line 19, Column 1)
+LibOFX INFO: Created OfxDummyContainer to hold unsupported aggregate ACCTINFO
+(Above message occurred on Line 21, Column 1)
+ofx_proc_account():
+    Account ID: 1234567789  12345
+    Account name: Bank account 12345
+    Account type: CHECKING
+    Bank ID: 1234567789
+    Account #: 12345
+
+PASS ../doc/ofx_sample_files/ofx-2.1.1-sect-8.5.5.ofx (exit status: 0)

@@ -1,0 +1,5 @@
+LibOFX INFO: libofx_proc_file(): File format not specified, autodetecting...
+LibOFX ERROR: libofx_detect_file_type(): Failed to identify input file format
+LibOFX INFO: libofx_proc_file(): Detected file format: UNKNOWN (File format couldn't be successfully identified)
+LibOFX ERROR: libofx_proc_file(): Could not detect file format, or unsupported file format; aborting.
+XFAIL ../doc/ofx_sample_files/failing-ofx-file.xml (exit status: 255)

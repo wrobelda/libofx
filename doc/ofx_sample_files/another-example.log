@@ -1,0 +1,68 @@
+LibOFX INFO: libofx_proc_file(): File format not specified, autodetecting...
+LibOFX INFO: libofx_proc_file(): Detected file format: OFX (Open Financial eXchange (OFX or QFX))
+LibOFX STATUS: find_dtd():DTD found: ../../dtd/opensp.dcl
+LibOFX STATUS: find_dtd():DTD found: ../../dtd/ofx160.dtd
+LibOFX INFO: Created OfxDummyContainer to hold unsupported aggregate SIGNONMSGSRSV1
+(Above message occurred on Line 4, Column 1)
+LibOFX INFO: Created OfxDummyContainer to hold unsupported aggregate SONRS
+(Above message occurred on Line 5, Column 1)
+ofx_proc_status():
+    Ofx entity this status is relevant to: SONRS 
+    Severity: INFO
+    Code: 0, name: Success
+    Description: The server successfully processed the request.
+    Server Message: Successful Sign On
+
+LibOFX INFO: Created OfxDummyContainer to hold unsupported aggregate INVSTMTMSGSRSV1
+(Above message occurred on Line 15, Column 1)
+LibOFX INFO: Created OfxDummyContainer to hold unsupported aggregate INVSTMTTRNRS
+(Above message occurred on Line 16, Column 1)
+ofx_proc_status():
+    Ofx entity this status is relevant to: INVSTMTTRNRS 
+    Severity: INFO
+    Code: 0, name: Success
+    Description: The server successfully processed the request.
+
+LibOFX INFO: Created OfxDummyContainer to hold unsupported aggregate INVPOSLIST
+(Above message occurred on Line 47, Column 1)
+LibOFX INFO: Created OfxDummyContainer to hold unsupported aggregate POSSTOCK
+(Above message occurred on Line 48, Column 1)
+ofx_proc_account():
+    Account ID: le.com 12345
+    Account name: Investment account 12345 at broker le.com
+    Account type: INVESTMENT
+    Default Currency: GBP
+    Account #: 12345
+
+ofx_proc_statement():
+    Default Currency: GBP
+    Account ID: le.com 12345
+    Statement as-of date: Thu Jan 11 14:38:11 2018 CET
+    Start date of this statement: Fri Dec  1 11:59:00 2017 CET
+    End date of this statement: Thu Jan 11 11:59:00 2018 CET
+
+ofx_proc_transaction():
+    Account ID : le.com 12345
+    Transaction type: OTHER: Other
+    Date initiated: Thu Jan  4 13:34:04 2018 CET
+    Total money amount: 2.00
+    Financial institution's ID for this transaction: 12345
+    Investment transaction type: INCOME (Investment income is realized as cash into the investment account)
+    Unique ID of the security being traded: LLPC
+    Format of the Unique ID: TICKER
+    Income type: DIVIDEND
+    Funding sub account type: OTHER
+    Security sub account type: OTHER
+
+ofx_proc_position():
+    Account ID: le.com 12345
+    Unique ID of the security: LLPC
+    Format of the Unique ID: TICKER
+    Held in account type: OTHER: Other subaccount
+    Position type: LONG: Long (holder for options, long for all others)
+    Units: 1.0000 (bonds: face value; options: contracts; all others: shares)
+    Unit price: 1.78
+    Market Value: 1.78
+    Date of unit price: Thu Jan 11 11:59:00 2018 CET
+
+PASS ../doc/ofx_sample_files/another-example.xml (exit status: 0)

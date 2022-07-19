@@ -1,0 +1,76 @@
+LibOFX INFO: libofx_proc_file(): File format not specified, autodetecting...
+LibOFX INFO: libofx_proc_file(): Detected file format: OFX (Open Financial eXchange (OFX or QFX))
+LibOFX INFO: sanitize_proprietary_tags() removed: <!-- Oct. 29, 1999, 10:10:03 am -->
+LibOFX INFO: sanitize_proprietary_tags() removed: <!-- Start date: Oct. 1, 1999 -->
+LibOFX INFO: sanitize_proprietary_tags() removed: <!-- End date: Oct. 28, 1999 -->
+LibOFX INFO: sanitize_proprietary_tags() removed: <!-- Posted on Oct. 4, 1999 -->
+LibOFX INFO: sanitize_proprietary_tags() removed: <!-- $200.00 -->
+LibOFX INFO: sanitize_proprietary_tags() removed: <!-- Posted on Oct. 20, 1999 -->
+LibOFX INFO: sanitize_proprietary_tags() removed: <!-- User date of Oct. 20, 1999 -->
+LibOFX INFO: sanitize_proprietary_tags() removed: <!-- $300.00 -->
+LibOFX INFO: sanitize_proprietary_tags() removed: <!-- End list of statement trans. -->
+LibOFX INFO: sanitize_proprietary_tags() removed: <!-- Bal amount: $200.29 -->
+LibOFX INFO: sanitize_proprietary_tags() removed: <!-- Bal amount: $200.29 -->
+LibOFX STATUS: find_dtd():DTD found: ../../dtd/opensp.dcl
+LibOFX STATUS: find_dtd():DTD found: ../../dtd/ofx160.dtd
+LibOFX INFO: Created OfxDummyContainer to hold unsupported aggregate SIGNONMSGSRSV1
+(Above message occurred on Line 2, Column 4)
+LibOFX INFO: Created OfxDummyContainer to hold unsupported aggregate SONRS
+(Above message occurred on Line 3, Column 8)
+ofx_proc_status():
+    Ofx entity this status is relevant to: SONRS 
+    Severity: INFO
+    Code: 0, name: Success
+    Description: The server successfully processed the request.
+
+LibOFX INFO: Created OfxDummyContainer to hold unsupported aggregate FI
+(Above message occurred on Line 12, Column 11)
+LibOFX INFO: Created OfxDummyContainer to hold unsupported aggregate BANKMSGSRSV1
+(Above message occurred on Line 18, Column 6)
+LibOFX INFO: Created OfxDummyContainer to hold unsupported aggregate STMTTRNRS
+(Above message occurred on Line 19, Column 8)
+ofx_proc_status():
+    Ofx entity this status is relevant to: STMTTRNRS 
+    Severity: INFO
+    Code: 0, name: Success
+    Description: The server successfully processed the request.
+
+ofx_proc_account():
+    Account ID: 121099999  999988
+    Account name: Bank account 999988
+    Account type: CHECKING
+    Default Currency: USD
+    Bank ID: 121099999
+    Account #: 999988
+
+ofx_proc_statement():
+    Default Currency: USD
+    Account ID: 121099999  999988
+    Start date of this statement: Fri Oct  1 11:59:00 1999 CEST
+    End date of this statement: Thu Oct 28 11:59:00 1999 CEST
+    Ledger balance: 200.29
+    Ledger balance date: Fri Oct 29 11:20:00 1999 CEST
+    Available balance: 200.29
+    Available balance date: Fri Oct 29 11:20:00 1999 CEST
+
+ofx_proc_transaction():
+    Account ID : 121099999  999988
+    Transaction type: CHECK: Check
+    Date posted: Mon Oct  4 11:59:00 1999 CEST
+    Total money amount: -200.00
+    # of units: 200.00
+    Unit price: 1.00
+    Financial institution's ID for this transaction: 00002
+    Check number: 1000
+
+ofx_proc_transaction():
+    Account ID : 121099999  999988
+    Transaction type: ATM: ATM debit or credit (Note: Depends on signage of amount)
+    Date initiated: Wed Oct 20 11:59:00 1999 CEST
+    Date posted: Wed Oct 20 11:59:00 1999 CEST
+    Total money amount: -300.00
+    # of units: 300.00
+    Unit price: 1.00
+    Financial institution's ID for this transaction: 00003
+
+PASS ../doc/ofx_sample_files/ofx_spec201_stmtrs_example.xml (exit status: 0)

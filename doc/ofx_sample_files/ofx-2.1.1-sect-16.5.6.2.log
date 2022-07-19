@@ -1,0 +1,103 @@
+LibOFX INFO: libofx_proc_file(): File format not specified, autodetecting...
+LibOFX INFO: libofx_proc_file(): Detected file format: OFX (Open Financial eXchange (OFX or QFX))
+LibOFX STATUS: find_dtd():DTD found: ../../dtd/opensp.dcl
+LibOFX STATUS: find_dtd():DTD found: ../../dtd/ofx160.dtd
+LibOFX INFO: Created OfxDummyContainer to hold unsupported aggregate SIGNONMSGSRSV1
+(Above message occurred on Line 2, Column 1)
+LibOFX INFO: Created OfxDummyContainer to hold unsupported aggregate SONRS
+(Above message occurred on Line 3, Column 1)
+ofx_proc_status():
+    Ofx entity this status is relevant to: SONRS 
+    Severity: INFO
+    Code: 0, name: Success
+    Description: The server successfully processed the request.
+
+LibOFX INFO: Created OfxDummyContainer to hold unsupported aggregate INVSTMTMSGSRSV1
+(Above message occurred on Line 12, Column 1)
+LibOFX INFO: Created OfxDummyContainer to hold unsupported aggregate INVSTMTTRNRS
+(Above message occurred on Line 13, Column 1)
+ofx_proc_status():
+    Ofx entity this status is relevant to: INVSTMTTRNRS 
+    Severity: INFO
+    Code: 0, name: Success
+    Description: The server successfully processed the request.
+
+LibOFX INFO: Created OfxDummyContainer to hold unsupported aggregate INVPOSLIST
+(Above message occurred on Line 50, Column 1)
+LibOFX INFO: Created OfxDummyContainer to hold unsupported aggregate POSMF
+(Above message occurred on Line 51, Column 1)
+LibOFX INFO: Created OfxDummyContainer to hold unsupported aggregate SECLISTMSGSRSV1
+(Above message occurred on Line 75, Column 1)
+LibOFX INFO: Created OfxDummyContainer to hold unsupported aggregate SECLIST
+(Above message occurred on Line 76, Column 1)
+ofx_proc_security():
+    Unique ID of the security: 808515100
+    Format of the Unique ID: CUSIP
+    Security type: MFINFO: Mutual fund security
+    Name of the security: MONEY MARKET FUND
+    Ticker symbol: SWMXX
+    Mutual fund type: OPENEND: Open ended
+
+ofx_proc_account():
+    Account ID: Broker Site 1256734
+    Account name: Investment account 1256734 at broker Broker Site
+    Account type: INVESTMENT
+    Default Currency: USD
+    Account #: 1256734
+
+ofx_proc_statement():
+    Default Currency: USD
+    Account ID: Broker Site 1256734
+    Statement as-of date: Thu Sep  1 01:53:24 2005 CEST
+    Start date of this statement: Mon Aug  1 11:59:00 2005 CEST
+    End date of this statement: Wed Aug 31 11:59:00 2005 CEST
+    Available balance: 370.87
+    Margin balance: 0.00
+    Short balance: 0.00
+
+ofx_proc_transaction():
+    Account ID : Broker Site 1256734
+    Transaction type: OTHER: Other
+    Date initiated: Tue Aug  2 11:59:00 2005 CEST
+    Total money amount: -120.00
+    # of units: 120.0000 (shares)
+    Unit price: 1.0000 (price per share)
+    Commission: 0.00
+    Financial institution's ID for this transaction: 40025098199608029240
+    Investment transaction type: BUYMF (Buy mutual fund)
+    Unique ID of the security being traded: 808515100
+    Format of the Unique ID: CUSIP
+    Extra transaction information (memo): MONEY MARKET FUND
+    Buy type: BUY: Buy
+    Funding sub account type: CASH
+    Security sub account type: CASH
+ofx_proc_security():
+    Unique ID of the security: 808515100
+    Format of the Unique ID: CUSIP
+    Security type: MFINFO: Mutual fund security
+    Name of the security: MONEY MARKET FUND
+    Ticker symbol: SWMXX
+    Mutual fund type: OPENEND: Open ended
+
+
+ofx_proc_position():
+    Account ID: Broker Site 1256734
+    Unique ID of the security: 808515100
+    Format of the Unique ID: CUSIP
+    Held in account type: OTHER: Other subaccount
+    Position type: LONG: Long (holder for options, long for all others)
+    Units: 1560.1800 (shares)
+    Unit price: 1.0000 (price per share)
+    Market Value: 156.1800
+    Date of unit price: Wed Aug 31 11:59:00 2005 CEST
+    Extra position information (memo): MONEY MARKET FUND
+ofx_proc_security():
+    Unique ID of the security: 808515100
+    Format of the Unique ID: CUSIP
+    Security type: MFINFO: Mutual fund security
+    Name of the security: MONEY MARKET FUND
+    Ticker symbol: SWMXX
+    Mutual fund type: OPENEND: Open ended
+
+
+PASS ../doc/ofx_sample_files/ofx-2.1.1-sect-16.5.6.2.ofx (exit status: 0)

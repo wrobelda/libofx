@@ -1,0 +1,39 @@
+LibOFX INFO: libofx_proc_file(): File format not specified, autodetecting...
+LibOFX INFO: libofx_proc_file(): Detected file format: OFX (Open Financial eXchange (OFX or QFX))
+LibOFX STATUS: find_dtd():DTD found: ../../dtd/opensp.dcl
+LibOFX STATUS: find_dtd():DTD found: ../../dtd/ofx160.dtd
+LibOFX INFO: Created OfxDummyContainer to hold unsupported aggregate SIGNONMSGSRSV1
+(Above message occurred on Line 2, Column 1)
+LibOFX INFO: Created OfxDummyContainer to hold unsupported aggregate SONRS
+(Above message occurred on Line 3, Column 1)
+LibOFX ERROR: OpenSP parser: otherError (misc parse error):
+/tmp/libofxtmp6ZLJPE:4:14:E: element "DKJHASDSTATUS" undefined
+
+(Above message occurred on Line 4, Column 15)
+LibOFX ERROR: OpenSP parser: otherError (misc parse error):
+/tmp/libofxtmp6ZLJPE:5:9:E: end tag for element "DSTATUS" which is not open
+
+(Above message occurred on Line 5, Column 10)
+LibOFX ERROR: OpenSP parser: otherError (misc parse error):
+/tmp/libofxtmp6ZLJPE:6:11:E: end tag for element "STMTTRNRS" which is not open
+
+(Above message occurred on Line 6, Column 12)
+LibOFX ERROR: OpenSP parser: otherError (misc parse error):
+/tmp/libofxtmp6ZLJPE:7:14:E: end tag for element "BANKMSGSRSV1" which is not open
+
+(Above message occurred on Line 7, Column 15)
+LibOFX ERROR: OpenSP parser: otherError (misc parse error):
+/tmp/libofxtmp6ZLJPE:8:5:E: "SONRS" not finished but containing element ended
+
+(Above message occurred on Line 8, Column 6)
+LibOFX ERROR: OpenSP parser: otherError (misc parse error):
+/tmp/libofxtmp6ZLJPE:8:5:E: end tag for "SONRS" omitted, but its declaration does not permit this
+/tmp/libofxtmp6ZLJPE:3:0: start tag was here
+
+(Above message occurred on Line 8, Column 6)
+LibOFX ERROR: OpenSP parser: otherError (misc parse error):
+/tmp/libofxtmp6ZLJPE:8:5:E: end tag for "SIGNONMSGSRSV1" omitted, but its declaration does not permit this
+/tmp/libofxtmp6ZLJPE:2:0: start tag was here
+
+(Above message occurred on Line 8, Column 6)
+XFAIL ../doc/ofx_sample_files/failing-ofx-file2.xml (exit status: 1)

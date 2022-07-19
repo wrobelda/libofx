@@ -1,0 +1,66 @@
+LibOFX INFO: libofx_proc_file(): File format not specified, autodetecting...
+LibOFX INFO: libofx_proc_file(): Detected file format: OFX (Open Financial eXchange (OFX or QFX))
+LibOFX INFO: sanitize_proprietary_tags() removed: <INTU.BID>00002
+LibOFX STATUS: find_dtd():DTD found: ../../dtd/opensp.dcl
+LibOFX STATUS: find_dtd():DTD found: ../../dtd/ofx160.dtd
+LibOFX INFO: Created OfxDummyContainer to hold unsupported aggregate SIGNONMSGSRSV1
+(Above message occurred on Line 2, Column 1)
+LibOFX INFO: Created OfxDummyContainer to hold unsupported aggregate SONRS
+(Above message occurred on Line 3, Column 1)
+ofx_proc_status():
+    Ofx entity this status is relevant to: SONRS 
+    Severity: INFO
+    Code: 0, name: Success
+    Description: The server successfully processed the request.
+    Server Message: OK
+
+LibOFX INFO: Created OfxDummyContainer to hold unsupported aggregate BANKMSGSRSV1
+(Above message occurred on Line 14, Column 1)
+LibOFX INFO: Created OfxDummyContainer to hold unsupported aggregate STMTTRNRS
+(Above message occurred on Line 15, Column 1)
+ofx_proc_status():
+    Ofx entity this status is relevant to: STMTTRNRS 
+    Severity: INFO
+    Code: 0, name: Success
+    Description: The server successfully processed the request.
+    Server Message: OK
+
+ofx_proc_account():
+    Account ID: 000000000  000000
+    Account name: Bank account 000000
+    Account type: CHECKING
+    Default Currency: CAD
+    Bank ID: 000000000
+    Account #: 000000
+
+ofx_proc_statement():
+    Default Currency: CAD
+    Account ID: 000000000  000000
+    Start date of this statement: Mon Feb  9 11:59:00 2009 CET
+    End date of this statement: Mon Feb  9 00:00:00 2009 CET
+    Ledger balance: 256.94
+    Ledger balance date: Mon Feb  9 00:00:00 2009 CET
+    Available balance: 256.94
+    Available balance date: Wed Feb 11 00:00:00 2009 CET
+
+ofx_proc_transaction():
+    Account ID : 000000000  000000
+    Transaction type: DEBIT: Generic debit
+    Date posted: Mon Feb  9 00:00:00 2009 CET
+    Total money amount: -98.91
+    # of units: 98.91
+    Unit price: 1.00
+    Financial institution's ID for this transaction: 00000000000000000000000000
+    Name of payee or transaction description: GROCER A & Z
+
+ofx_proc_transaction():
+    Account ID : 000000000  000000
+    Transaction type: CREDIT: Generic credit
+    Date posted: Mon Feb  9 00:00:00 2009 CET
+    Total money amount: 308.86
+    # of units: -308.86
+    Unit price: 1.00
+    Financial institution's ID for this transaction: 00000000000000000000000000
+    Name of payee or transaction description: DEPOSIT    000000
+
+PASS ../doc/ofx_sample_files/example-listing1.xml (exit status: 0)

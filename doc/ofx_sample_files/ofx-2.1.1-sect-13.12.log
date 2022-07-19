@@ -1,0 +1,193 @@
+LibOFX INFO: libofx_proc_file(): File format not specified, autodetecting...
+LibOFX INFO: libofx_proc_file(): Detected file format: OFX (Open Financial eXchange (OFX or QFX))
+LibOFX INFO: sanitize_proprietary_tags() removed: <!-- ...Sign on response. copied from section 11.14.1-->
+LibOFX INFO: sanitize_proprietary_tags() removed: <!-- Oct. 29, 2005, 10:10:03 am -->
+LibOFX INFO: sanitize_proprietary_tags() removed: <!--Total amount $5025.00-->
+LibOFX INFO: sanitize_proprietary_tags() removed: <!--$1,000.00-->
+LibOFX INFO: sanitize_proprietary_tags() removed: <!--CUSIP for Acme Development, Inc.-->
+LibOFX INFO: sanitize_proprietary_tags() removed: <!--Current market value $9900.00-->
+LibOFX INFO: sanitize_proprietary_tags() removed: <!--Current market value $500.00-->
+LibOFX INFO: sanitize_proprietary_tags() removed: <!--$200.00 cash balance-->
+LibOFX INFO: sanitize_proprietary_tags() removed: <!--$50.00 owed on margin balance-->
+LibOFX INFO: sanitize_proprietary_tags() removed: <!--Will be formatted 7.85%-->
+LibOFX STATUS: find_dtd():DTD found: ../../dtd/opensp.dcl
+LibOFX STATUS: find_dtd():DTD found: ../../dtd/ofx160.dtd
+LibOFX INFO: Created OfxDummyContainer to hold unsupported aggregate SIGNONMSGSRSV1
+(Above message occurred on Line 2, Column 1)
+LibOFX INFO: Created OfxDummyContainer to hold unsupported aggregate SONRS
+(Above message occurred on Line 3, Column 1)
+ofx_proc_status():
+    Ofx entity this status is relevant to: SONRS 
+    Severity: INFO
+    Code: 0, name: Success
+    Description: The server successfully processed the request.
+
+LibOFX INFO: Created OfxDummyContainer to hold unsupported aggregate FI
+(Above message occurred on Line 12, Column 1)
+LibOFX INFO: Created OfxDummyContainer to hold unsupported aggregate INVSTMTMSGSRSV1
+(Above message occurred on Line 18, Column 1)
+LibOFX INFO: Created OfxDummyContainer to hold unsupported aggregate INVSTMTTRNRS
+(Above message occurred on Line 19, Column 1)
+ofx_proc_status():
+    Ofx entity this status is relevant to: INVSTMTTRNRS 
+    Severity: INFO
+    Code: 0, name: Success
+    Description: The server successfully processed the request.
+
+LibOFX INFO: Created OfxDummyContainer to hold unsupported aggregate INVPOSLIST
+(Above message occurred on Line 69, Column 1)
+LibOFX INFO: Created OfxDummyContainer to hold unsupported aggregate POSSTOCK
+(Above message occurred on Line 70, Column 1)
+LibOFX INFO: Created OfxDummyContainer to hold unsupported aggregate POSOPT
+(Above message occurred on Line 85, Column 1)
+LibOFX INFO: Created OfxDummyContainer to hold unsupported aggregate BALLIST
+(Above message occurred on Line 105, Column 1)
+LibOFX INFO: Created OfxDummyContainer to hold unsupported aggregate BAL
+(Above message occurred on Line 106, Column 1)
+LibOFX INFO: Created OfxDummyContainer to hold unsupported aggregate INVOOLIST
+(Above message occurred on Line 116, Column 1)
+LibOFX INFO: Created OfxDummyContainer to hold unsupported aggregate OOBUYSTOCK
+(Above message occurred on Line 117, Column 1)
+LibOFX INFO: Created OfxDummyContainer to hold unsupported aggregate OO
+(Above message occurred on Line 118, Column 1)
+LibOFX INFO: Created OfxDummyContainer to hold unsupported aggregate SECLISTMSGSRSV1
+(Above message occurred on Line 137, Column 1)
+LibOFX INFO: Created OfxDummyContainer to hold unsupported aggregate SECLIST
+(Above message occurred on Line 138, Column 1)
+ofx_proc_security():
+    Unique ID of the security: 000342222
+    Format of the Unique ID: CUSIP
+    Unique ID of the underlying security: 000342200
+    Format of the underlying Unique ID: CUSIP
+    Security type: OPTINFO: Option security
+    Name of the security: Lucky Airlines Jan 97 Put
+    Ticker symbol: LUAXX
+    Asset class: LARGESTOCK: Large cap stock
+    Option type: PUT: Put option
+    Strike price: 35
+    Expiration date: Fri Jan 21 11:59:00 2005 CET
+    Shares per contract: 100
+
+ofx_proc_security():
+    Unique ID of the security: 666678578
+    Format of the Unique ID: CUSIP
+    Security type: STOCKINFO: Stock security
+    Name of the security: Hackson Unlimited, Inc.
+    Ticker symbol: HACK
+    Asset class: SMALLSTOCK: Small cap stock
+    Current yield (rate): 17%
+
+ofx_proc_security():
+    Unique ID of the security: 123456789
+    Format of the Unique ID: CUSIP
+    Security type: STOCKINFO: Stock security
+    Name of the security: Acme Development, Inc.
+    Ticker symbol: ACME
+    Asset class: SMALLSTOCK: Small cap stock
+    Current yield (rate): 10%
+
+ofx_proc_account():
+    Account ID: 121099999 999988
+    Account name: Investment account 999988 at broker 121099999
+    Account type: INVESTMENT
+    Default Currency: USD
+    Account #: 999988
+
+ofx_proc_statement():
+    Default Currency: USD
+    Account ID: 121099999 999988
+    Statement as-of date: Sat Aug 27 01:00:00 2005 CEST
+    Start date of this statement: Wed Aug 24 13:01:05 2005 CEST
+    End date of this statement: Sun Aug 28 10:10:00 2005 CEST
+    Available balance: 200.00
+    Margin balance: -50.00
+    Short balance: 0.00
+
+ofx_proc_transaction():
+    Account ID : 121099999 999988
+    Transaction type: OTHER: Other
+    Date initiated: Thu Aug 25 11:59:00 2005 CEST
+    Date posted: Sun Aug 28 11:59:00 2005 CEST
+    Total money amount: -5025.00
+    # of units: 100.0000 (shares)
+    Unit price: 50.0000 (price per share)
+    Commission: 25.00
+    Financial institution's ID for this transaction: 23321
+    Investment transaction type: BUYSTOCK (Buy stock)
+    Unique ID of the security being traded: 123456789
+    Format of the Unique ID: CUSIP
+    Buy type: BUY: Buy
+    Funding sub account type: CASH
+    Security sub account type: CASH
+ofx_proc_security():
+    Unique ID of the security: 123456789
+    Format of the Unique ID: CUSIP
+    Security type: STOCKINFO: Stock security
+    Name of the security: Acme Development, Inc.
+    Ticker symbol: ACME
+    Asset class: SMALLSTOCK: Small cap stock
+    Current yield (rate): 10.00%
+
+
+ofx_proc_transaction():
+    Account ID : 121099999 999988
+    Transaction type: CREDIT: Generic credit
+    Date initiated: Thu Aug 25 11:59:00 2005 CEST
+    Date posted: Thu Aug 25 11:59:00 2005 CEST
+    Total money amount: 1000.00
+    # of units: -1000.0000 (bonds: face value; options: contracts; all others: shares)
+    Unit price: 1.0000 (bonds: % of par; options: premium per share of underlying; all others: price per share)
+    Financial institution's ID for this transaction: 12345
+    Investment transaction type: INVBANKTRAN (Transfer cash in and out of the investment account)
+    Name of payee or transaction description: Customer deposit
+    Extra transaction information (memo): Your check #1034
+    Funding sub account type: CASH
+
+ofx_proc_position():
+    Account ID: 121099999 999988
+    Unique ID of the security: 123456789
+    Format of the Unique ID: CUSIP
+    Held in account type: CASH: Cash subaccount
+    Position type: LONG: Long (holder for options, long for all others)
+    Units: 200.0000 (shares)
+    Unit price: 49.5000 (price per share)
+    Market Value: 9900.0000
+    Date of unit price: Sat Aug 27 01:00:00 2005 CEST
+    Extra position information (memo): Next dividend payable Sept 1
+ofx_proc_security():
+    Unique ID of the security: 123456789
+    Format of the Unique ID: CUSIP
+    Security type: STOCKINFO: Stock security
+    Name of the security: Acme Development, Inc.
+    Ticker symbol: ACME
+    Asset class: SMALLSTOCK: Small cap stock
+    Current yield (rate): 10.0000%
+
+
+ofx_proc_position():
+    Account ID: 121099999 999988
+    Unique ID of the security: 000342222
+    Format of the Unique ID: CUSIP
+    Held in account type: CASH: Cash subaccount
+    Position type: LONG: Long (holder for options, long for all others)
+    Units: 1.0000 (contracts)
+    Unit price: 5.0000 (premium per share of underlying)
+    Market Value: 500.0000
+    Date of unit price: Sat Aug 27 01:00:00 2005 CEST
+    Extra position information (memo): Option is in the money
+ofx_proc_security():
+    Unique ID of the security: 000342222
+    Format of the Unique ID: CUSIP
+    Unique ID of the underlying security: 000342200
+    Format of the underlying Unique ID: CUSIP
+    Security type: OPTINFO: Option security
+    Name of the security: Lucky Airlines Jan 97 Put
+    Ticker symbol: LUAXX
+    Asset class: LARGESTOCK: Large cap stock
+    Option type: PUT: Put option
+    Strike price: 35.0000
+    Expiration date: Fri Jan 21 11:59:00 2005 CET
+    Shares per contract: 100.0000
+
+
+PASS ../doc/ofx_sample_files/ofx-2.1.1-sect-13.12.ofx (exit status: 0)

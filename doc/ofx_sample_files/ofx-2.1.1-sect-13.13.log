@@ -1,0 +1,440 @@
+LibOFX INFO: libofx_proc_file(): File format not specified, autodetecting...
+LibOFX INFO: libofx_proc_file(): Detected file format: OFX (Open Financial eXchange (OFX or QFX))
+LibOFX INFO: sanitize_proprietary_tags() removed: <!-- ...Sign on response. copied from section 11.14.1-->
+LibOFX INFO: sanitize_proprietary_tags() removed: <!-- Oct. 29, 2005, 10:10:03 am -->
+LibOFX STATUS: find_dtd():DTD found: ../../dtd/opensp.dcl
+LibOFX STATUS: find_dtd():DTD found: ../../dtd/ofx160.dtd
+LibOFX INFO: Created OfxDummyContainer to hold unsupported aggregate SIGNONMSGSRSV1
+(Above message occurred on Line 2, Column 1)
+LibOFX INFO: Created OfxDummyContainer to hold unsupported aggregate SONRS
+(Above message occurred on Line 3, Column 1)
+ofx_proc_status():
+    Ofx entity this status is relevant to: SONRS 
+    Severity: INFO
+    Code: 0, name: Success
+    Description: The server successfully processed the request.
+
+LibOFX INFO: Created OfxDummyContainer to hold unsupported aggregate FI
+(Above message occurred on Line 12, Column 1)
+LibOFX INFO: Created OfxDummyContainer to hold unsupported aggregate INVSTMTMSGSRSV1
+(Above message occurred on Line 18, Column 1)
+LibOFX INFO: Created OfxDummyContainer to hold unsupported aggregate INVSTMTTRNRS
+(Above message occurred on Line 19, Column 1)
+ofx_proc_status():
+    Ofx entity this status is relevant to: INVSTMTTRNRS 
+    Severity: INFO
+    Code: 0, name: Success
+    Description: The server successfully processed the request.
+
+LibOFX ERROR: OpenSP parser: otherError (misc parse error):
+/tmp/libofxtmpOKrVnp:54:7:E: element "LOANID" undefined
+
+(Above message occurred on Line 54, Column 8)
+LibOFX ERROR: OpenSP parser: otherError (misc parse error):
+/tmp/libofxtmpOKrVnp:55:14:E: element "LOANPRINCIPAL" undefined
+
+(Above message occurred on Line 55, Column 15)
+LibOFX ERROR: OpenSP parser: otherError (misc parse error):
+/tmp/libofxtmpOKrVnp:56:13:E: element "LOANINTEREST" undefined
+
+(Above message occurred on Line 56, Column 14)
+LibOFX ERROR: OpenSP parser: otherError (misc parse error):
+/tmp/libofxtmpOKrVnp:57:14:E: element "INV401KSOURCE" undefined
+
+(Above message occurred on Line 57, Column 15)
+LibOFX ERROR: OpenSP parser: otherError (misc parse error):
+/tmp/libofxtmpOKrVnp:58:10:E: element "DTPAYROLL" undefined
+
+(Above message occurred on Line 58, Column 11)
+LibOFX ERROR: OpenSP parser: otherError (misc parse error):
+/tmp/libofxtmpOKrVnp:59:17:E: element "PRIORYEARCONTRIB" undefined
+
+(Above message occurred on Line 59, Column 18)
+LibOFX ERROR: OpenSP parser: otherError (misc parse error):
+/tmp/libofxtmpOKrVnp:82:7:E: element "LOANID" undefined
+
+(Above message occurred on Line 82, Column 8)
+LibOFX ERROR: OpenSP parser: otherError (misc parse error):
+/tmp/libofxtmpOKrVnp:83:14:E: element "LOANPRINCIPAL" undefined
+
+(Above message occurred on Line 83, Column 15)
+LibOFX ERROR: OpenSP parser: otherError (misc parse error):
+/tmp/libofxtmpOKrVnp:84:13:E: element "LOANINTEREST" undefined
+
+(Above message occurred on Line 84, Column 14)
+LibOFX ERROR: OpenSP parser: otherError (misc parse error):
+/tmp/libofxtmpOKrVnp:85:14:E: element "INV401KSOURCE" undefined
+
+(Above message occurred on Line 85, Column 15)
+LibOFX ERROR: OpenSP parser: otherError (misc parse error):
+/tmp/libofxtmpOKrVnp:86:10:E: element "DTPAYROLL" undefined
+
+(Above message occurred on Line 86, Column 11)
+LibOFX ERROR: OpenSP parser: otherError (misc parse error):
+/tmp/libofxtmpOKrVnp:87:17:E: element "PRIORYEARCONTRIB" undefined
+
+(Above message occurred on Line 87, Column 18)
+LibOFX ERROR: OpenSP parser: otherError (misc parse error):
+/tmp/libofxtmpOKrVnp:110:14:E: element "INV401KSOURCE" undefined
+
+(Above message occurred on Line 110, Column 15)
+LibOFX ERROR: OpenSP parser: otherError (misc parse error):
+/tmp/libofxtmpOKrVnp:111:10:E: element "DTPAYROLL" undefined
+
+(Above message occurred on Line 111, Column 11)
+LibOFX ERROR: OpenSP parser: otherError (misc parse error):
+/tmp/libofxtmpOKrVnp:112:17:E: element "PRIORYEARCONTRIB" undefined
+
+(Above message occurred on Line 112, Column 18)
+LibOFX ERROR: OpenSP parser: otherError (misc parse error):
+/tmp/libofxtmpOKrVnp:117:11:E: element "INV401KBAL" undefined
+
+(Above message occurred on Line 117, Column 12)
+LibOFX ERROR: OpenSP parser: otherError (misc parse error):
+/tmp/libofxtmpOKrVnp:118:7:E: element "PRETAX" undefined
+
+(Above message occurred on Line 118, Column 8)
+LibOFX ERROR: WRITEME: PRETAX (31690.340000) is not supported by the BALANCE container
+(Above message occurred on Line 118, Column 21)
+LibOFX ERROR: OpenSP parser: otherError (misc parse error):
+/tmp/libofxtmpOKrVnp:119:14:E: element "PROFITSHARING" undefined
+
+(Above message occurred on Line 119, Column 15)
+LibOFX ERROR: startElement: incoming_data should be empty! You are probably using OpenSP <= 1.3.4.  The following data was lost: 
+(Above message occurred on Line 119, Column 1)
+LibOFX ERROR: WRITEME: PROFITSHARING (10725.640000) is not supported by the BALANCE container
+(Above message occurred on Line 119, Column 28)
+LibOFX ERROR: OpenSP parser: otherError (misc parse error):
+/tmp/libofxtmpOKrVnp:120:9:E: element "ROLLOVER" undefined
+
+(Above message occurred on Line 120, Column 10)
+LibOFX ERROR: startElement: incoming_data should be empty! You are probably using OpenSP <= 1.3.4.  The following data was lost: 
+(Above message occurred on Line 120, Column 1)
+LibOFX ERROR: WRITEME: ROLLOVER (15945.750000) is not supported by the BALANCE container
+(Above message occurred on Line 120, Column 23)
+LibOFX ERROR: OpenSP parser: otherError (misc parse error):
+/tmp/libofxtmpOKrVnp:121:10:E: element "OTHERVEST" undefined
+
+(Above message occurred on Line 121, Column 11)
+LibOFX ERROR: startElement: incoming_data should be empty! You are probably using OpenSP <= 1.3.4.  The following data was lost: 
+(Above message occurred on Line 121, Column 1)
+LibOFX ERROR: WRITEME: OTHERVEST (108.800000) is not supported by the BALANCE container
+(Above message occurred on Line 121, Column 22)
+LibOFX ERROR: startElement: incoming_data should be empty! You are probably using OpenSP <= 1.3.4.  The following data was lost: 
+(Above message occurred on Line 122, Column 1)
+LibOFX ERROR: WRITEME: TOTAL (58470.530000) is not supported by the BALANCE container
+(Above message occurred on Line 122, Column 20)
+LibOFX ERROR: OpenSP parser: otherError (misc parse error):
+/tmp/libofxtmpOKrVnp:124:8:E: element "INV401K" undefined
+
+(Above message occurred on Line 124, Column 9)
+LibOFX INFO: Created OfxInv401kContainer to hold unsupported aggregate INV401K
+(Above message occurred on Line 124, Column 1)
+LibOFX ERROR: OpenSP parser: otherError (misc parse error):
+/tmp/libofxtmpOKrVnp:125:13:E: element "EMPLOYERNAME" undefined
+
+(Above message occurred on Line 125, Column 14)
+LibOFX ERROR: WRITEME: EMPLOYERNAME (ELGIN NATIONAL INDUSTRIES INC) is not supported by the INV401K container
+(Above message occurred on Line 125, Column 44)
+LibOFX ERROR: OpenSP parser: otherError (misc parse error):
+/tmp/libofxtmpOKrVnp:126:7:E: element "PLANID" undefined
+
+(Above message occurred on Line 126, Column 8)
+LibOFX ERROR: startElement: incoming_data should be empty! You are probably using OpenSP <= 1.3.4.  The following data was lost: 
+(Above message occurred on Line 126, Column 1)
+LibOFX ERROR: WRITEME: PLANID (4343) is not supported by the INV401K container
+(Above message occurred on Line 126, Column 13)
+LibOFX ERROR: OpenSP parser: otherError (misc parse error):
+/tmp/libofxtmpOKrVnp:127:13:E: element "PLANJOINDATE" undefined
+
+(Above message occurred on Line 127, Column 14)
+LibOFX ERROR: startElement: incoming_data should be empty! You are probably using OpenSP <= 1.3.4.  The following data was lost: 
+(Above message occurred on Line 127, Column 1)
+LibOFX ERROR: WRITEME: PLANJOINDATE (19940101000000.000[-5:EST]) is not supported by the INV401K container
+(Above message occurred on Line 127, Column 41)
+LibOFX ERROR: OpenSP parser: otherError (misc parse error):
+/tmp/libofxtmpOKrVnp:128:10:E: element "MATCHINFO" undefined
+
+(Above message occurred on Line 128, Column 11)
+LibOFX ERROR: startElement: incoming_data should be empty! You are probably using OpenSP <= 1.3.4.  The following data was lost: 
+(Above message occurred on Line 128, Column 1)
+LibOFX ERROR: OpenSP parser: otherError (misc parse error):
+/tmp/libofxtmpOKrVnp:129:9:E: element "MATCHPCT" undefined
+
+(Above message occurred on Line 129, Column 10)
+LibOFX ERROR: WRITEME: MATCHPCT (0.00) is not supported by the INV401K container
+(Above message occurred on Line 129, Column 15)
+LibOFX ERROR: Tried to close a MATCHINFO but a INV401K is currently open.
+(Above message occurred on Line 130, Column 1)
+LibOFX ERROR: OpenSP parser: otherError (misc parse error):
+/tmp/libofxtmpOKrVnp:131:12:E: element "CONTRIBINFO" undefined
+
+(Above message occurred on Line 131, Column 13)
+LibOFX ERROR: startElement: incoming_data should be empty! You are probably using OpenSP <= 1.3.4.  The following data was lost: 
+(Above message occurred on Line 131, Column 1)
+LibOFX ERROR: OpenSP parser: otherError (misc parse error):
+/tmp/libofxtmpOKrVnp:132:16:E: element "CONTRIBSECURITY" undefined
+
+(Above message occurred on Line 132, Column 17)
+LibOFX ERROR: WRITEME: UNIQUEID (744316100) is not supported by the INV401K container
+(Above message occurred on Line 134, Column 20)
+LibOFX ERROR: WRITEME: UNIQUEIDTYPE (CUSIP) is not supported by the INV401K container
+(Above message occurred on Line 135, Column 20)
+LibOFX ERROR: OpenSP parser: otherError (misc parse error):
+/tmp/libofxtmpOKrVnp:137:17:E: element "PRETAXCONTRIBPCT" undefined
+
+(Above message occurred on Line 137, Column 18)
+LibOFX ERROR: startElement: incoming_data should be empty! You are probably using OpenSP <= 1.3.4.  The following data was lost: 
+(Above message occurred on Line 137, Column 1)
+LibOFX ERROR: WRITEME: PRETAXCONTRIBPCT (50.0000) is not supported by the INV401K container
+(Above message occurred on Line 137, Column 26)
+LibOFX ERROR: OpenSP parser: otherError (misc parse error):
+/tmp/libofxtmpOKrVnp:138:24:E: element "PROFITSHARINGCONTRIBPCT" undefined
+
+(Above message occurred on Line 138, Column 25)
+LibOFX ERROR: startElement: incoming_data should be empty! You are probably using OpenSP <= 1.3.4.  The following data was lost: 
+(Above message occurred on Line 138, Column 1)
+LibOFX ERROR: WRITEME: PROFITSHARINGCONTRIBPCT (100.0000) is not supported by the INV401K container
+(Above message occurred on Line 139, Column 1)
+LibOFX ERROR: OpenSP parser: otherError (misc parse error):
+/tmp/libofxtmpOKrVnp:140:19:E: element "ROLLOVERCONTRIBPCT" undefined
+
+(Above message occurred on Line 140, Column 20)
+LibOFX ERROR: startElement: incoming_data should be empty! You are probably using OpenSP <= 1.3.4.  The following data was lost: 
+(Above message occurred on Line 140, Column 1)
+LibOFX ERROR: WRITEME: ROLLOVERCONTRIBPCT (100.0000) is not supported by the INV401K container
+(Above message occurred on Line 140, Column 29)
+LibOFX ERROR: OpenSP parser: otherError (misc parse error):
+/tmp/libofxtmpOKrVnp:141:13:E: element "OTHERVESTPCT" undefined
+
+(Above message occurred on Line 141, Column 14)
+LibOFX ERROR: startElement: incoming_data should be empty! You are probably using OpenSP <= 1.3.4.  The following data was lost: 
+(Above message occurred on Line 141, Column 1)
+LibOFX ERROR: WRITEME: OTHERVESTPCT (100.0000) is not supported by the INV401K container
+(Above message occurred on Line 141, Column 23)
+LibOFX ERROR: Tried to close a CONTRIBSECURITY but a INV401K is currently open.
+(Above message occurred on Line 142, Column 1)
+LibOFX ERROR: OpenSP parser: otherError (misc parse error):
+/tmp/libofxtmpOKrVnp:143:16:E: element "CONTRIBSECURITY" undefined
+
+(Above message occurred on Line 143, Column 17)
+LibOFX ERROR: startElement: incoming_data should be empty! You are probably using OpenSP <= 1.3.4.  The following data was lost: 
+(Above message occurred on Line 143, Column 1)
+LibOFX ERROR: WRITEME: UNIQUEID (74431M105) is not supported by the INV401K container
+(Above message occurred on Line 145, Column 20)
+LibOFX ERROR: WRITEME: UNIQUEIDTYPE (CUSIP) is not supported by the INV401K container
+(Above message occurred on Line 146, Column 20)
+LibOFX ERROR: OpenSP parser: otherError (misc parse error):
+/tmp/libofxtmpOKrVnp:148:17:E: element "PRETAXCONTRIBPCT" undefined
+
+(Above message occurred on Line 148, Column 18)
+LibOFX ERROR: startElement: incoming_data should be empty! You are probably using OpenSP <= 1.3.4.  The following data was lost: 
+(Above message occurred on Line 148, Column 1)
+LibOFX ERROR: WRITEME: PRETAXCONTRIBPCT (25.0000) is not supported by the INV401K container
+(Above message occurred on Line 148, Column 26)
+LibOFX ERROR: OpenSP parser: otherError (misc parse error):
+/tmp/libofxtmpOKrVnp:149:24:E: element "PROFITSHARINGCONTRIBPCT" undefined
+
+(Above message occurred on Line 149, Column 25)
+LibOFX ERROR: startElement: incoming_data should be empty! You are probably using OpenSP <= 1.3.4.  The following data was lost: 
+(Above message occurred on Line 149, Column 1)
+LibOFX ERROR: WRITEME: PROFITSHARINGCONTRIBPCT (0.0000) is not supported by the INV401K container
+(Above message occurred on Line 150, Column 1)
+LibOFX ERROR: OpenSP parser: otherError (misc parse error):
+/tmp/libofxtmpOKrVnp:151:19:E: element "ROLLOVERCONTRIBPCT" undefined
+
+(Above message occurred on Line 151, Column 20)
+LibOFX ERROR: startElement: incoming_data should be empty! You are probably using OpenSP <= 1.3.4.  The following data was lost: 
+(Above message occurred on Line 151, Column 1)
+LibOFX ERROR: WRITEME: ROLLOVERCONTRIBPCT (0.0000) is not supported by the INV401K container
+(Above message occurred on Line 151, Column 27)
+LibOFX ERROR: OpenSP parser: otherError (misc parse error):
+/tmp/libofxtmpOKrVnp:152:13:E: element "OTHERVESTPCT" undefined
+
+(Above message occurred on Line 152, Column 14)
+LibOFX ERROR: startElement: incoming_data should be empty! You are probably using OpenSP <= 1.3.4.  The following data was lost: 
+(Above message occurred on Line 152, Column 1)
+LibOFX ERROR: WRITEME: OTHERVESTPCT (0.0000) is not supported by the INV401K container
+(Above message occurred on Line 152, Column 21)
+LibOFX ERROR: Tried to close a CONTRIBSECURITY but a INV401K is currently open.
+(Above message occurred on Line 153, Column 1)
+LibOFX ERROR: OpenSP parser: otherError (misc parse error):
+/tmp/libofxtmpOKrVnp:154:16:E: element "CONTRIBSECURITY" undefined
+
+(Above message occurred on Line 154, Column 17)
+LibOFX ERROR: startElement: incoming_data should be empty! You are probably using OpenSP <= 1.3.4.  The following data was lost: 
+(Above message occurred on Line 154, Column 1)
+LibOFX ERROR: WRITEME: UNIQUEID (743969107) is not supported by the INV401K container
+(Above message occurred on Line 156, Column 20)
+LibOFX ERROR: WRITEME: UNIQUEIDTYPE (CUSIP) is not supported by the INV401K container
+(Above message occurred on Line 157, Column 20)
+LibOFX ERROR: OpenSP parser: otherError (misc parse error):
+/tmp/libofxtmpOKrVnp:159:17:E: element "PRETAXCONTRIBPCT" undefined
+
+(Above message occurred on Line 159, Column 18)
+LibOFX ERROR: startElement: incoming_data should be empty! You are probably using OpenSP <= 1.3.4.  The following data was lost: 
+(Above message occurred on Line 159, Column 1)
+LibOFX ERROR: WRITEME: PRETAXCONTRIBPCT (25.0000) is not supported by the INV401K container
+(Above message occurred on Line 159, Column 26)
+LibOFX ERROR: OpenSP parser: otherError (misc parse error):
+/tmp/libofxtmpOKrVnp:160:24:E: element "PROFITSHARINGCONTRIBPCT" undefined
+
+(Above message occurred on Line 160, Column 25)
+LibOFX ERROR: startElement: incoming_data should be empty! You are probably using OpenSP <= 1.3.4.  The following data was lost: 
+(Above message occurred on Line 160, Column 1)
+LibOFX ERROR: WRITEME: PROFITSHARINGCONTRIBPCT (0.0000) is not supported by the INV401K container
+(Above message occurred on Line 161, Column 1)
+LibOFX ERROR: OpenSP parser: otherError (misc parse error):
+/tmp/libofxtmpOKrVnp:162:19:E: element "ROLLOVERCONTRIBPCT" undefined
+
+(Above message occurred on Line 162, Column 20)
+LibOFX ERROR: startElement: incoming_data should be empty! You are probably using OpenSP <= 1.3.4.  The following data was lost: 
+(Above message occurred on Line 162, Column 1)
+LibOFX ERROR: WRITEME: ROLLOVERCONTRIBPCT (0.0000) is not supported by the INV401K container
+(Above message occurred on Line 162, Column 27)
+LibOFX ERROR: OpenSP parser: otherError (misc parse error):
+/tmp/libofxtmpOKrVnp:163:13:E: element "OTHERVESTPCT" undefined
+
+(Above message occurred on Line 163, Column 14)
+LibOFX ERROR: startElement: incoming_data should be empty! You are probably using OpenSP <= 1.3.4.  The following data was lost: 
+(Above message occurred on Line 163, Column 1)
+LibOFX ERROR: WRITEME: OTHERVESTPCT (0.0000) is not supported by the INV401K container
+(Above message occurred on Line 163, Column 21)
+LibOFX ERROR: Tried to close a CONTRIBSECURITY but a INV401K is currently open.
+(Above message occurred on Line 164, Column 1)
+LibOFX ERROR: Tried to close a CONTRIBINFO but a INV401K is currently open.
+(Above message occurred on Line 165, Column 1)
+LibOFX ERROR: OpenSP parser: otherError (misc parse error):
+/tmp/libofxtmpOKrVnp:166:15:E: element "INV401KSUMMARY" undefined
+
+(Above message occurred on Line 166, Column 16)
+LibOFX ERROR: startElement: incoming_data should be empty! You are probably using OpenSP <= 1.3.4.  The following data was lost: 
+(Above message occurred on Line 166, Column 1)
+LibOFX ERROR: OpenSP parser: otherError (misc parse error):
+/tmp/libofxtmpOKrVnp:167:11:E: element "YEARTODATE" undefined
+
+(Above message occurred on Line 167, Column 12)
+LibOFX ERROR: startElement: incoming_data should be empty! You are probably using OpenSP <= 1.3.4.  The following data was lost: 
+(Above message occurred on Line 169, Column 1)
+LibOFX ERROR: OpenSP parser: otherError (misc parse error):
+/tmp/libofxtmpOKrVnp:170:14:E: element "CONTRIBUTIONS" undefined
+
+(Above message occurred on Line 170, Column 15)
+LibOFX ERROR: startElement: incoming_data should be empty! You are probably using OpenSP <= 1.3.4.  The following data was lost: 
+(Above message occurred on Line 170, Column 1)
+LibOFX ERROR: OpenSP parser: otherError (misc parse error):
+/tmp/libofxtmpOKrVnp:171:7:E: element "PRETAX" undefined
+
+(Above message occurred on Line 171, Column 8)
+LibOFX ERROR: WRITEME: PRETAX (843.2500) is not supported by the INV401K container
+(Above message occurred on Line 171, Column 17)
+LibOFX ERROR: OpenSP parser: otherError (misc parse error):
+/tmp/libofxtmpOKrVnp:172:9:E: element "AFTERTAX" undefined
+
+(Above message occurred on Line 172, Column 10)
+LibOFX ERROR: startElement: incoming_data should be empty! You are probably using OpenSP <= 1.3.4.  The following data was lost: 
+(Above message occurred on Line 172, Column 1)
+LibOFX ERROR: WRITEME: AFTERTAX (43.4200) is not supported by the INV401K container
+(Above message occurred on Line 172, Column 18)
+LibOFX ERROR: OpenSP parser: otherError (misc parse error):
+/tmp/libofxtmpOKrVnp:173:6:E: element "MATCH" undefined
+
+(Above message occurred on Line 173, Column 7)
+LibOFX ERROR: startElement: incoming_data should be empty! You are probably using OpenSP <= 1.3.4.  The following data was lost: 
+(Above message occurred on Line 173, Column 1)
+LibOFX ERROR: WRITEME: MATCH (421.6200) is not supported by the INV401K container
+(Above message occurred on Line 173, Column 16)
+LibOFX ERROR: startElement: incoming_data should be empty! You are probably using OpenSP <= 1.3.4.  The following data was lost: 
+(Above message occurred on Line 174, Column 1)
+LibOFX ERROR: WRITEME: TOTAL (1308.2900) is not supported by the INV401K container
+(Above message occurred on Line 174, Column 17)
+LibOFX ERROR: Tried to close a CONTRIBUTIONS but a INV401K is currently open.
+(Above message occurred on Line 175, Column 1)
+LibOFX ERROR: Tried to close a YEARTODATE but a INV401K is currently open.
+(Above message occurred on Line 176, Column 1)
+LibOFX ERROR: Tried to close a INV401KSUMMARY but a INV401K is currently open.
+(Above message occurred on Line 176, Column 1)
+ofx_proc_account():
+    Account ID: 121099999 999988
+    Account name: Investment account 999988 at broker 121099999
+    Account type: INVESTMENT
+    Default Currency: USD
+    Account #: 999988
+
+ofx_proc_statement():
+    Default Currency: USD
+    Account ID: 121099999 999988
+    Statement as-of date: Tue Jan 31 17:26:05 2006 CET
+    Start date of this statement: Thu Jan  5 17:25:32 2006 CET
+    End date of this statement: Tue Jan 31 17:25:32 2006 CET
+
+ofx_proc_transaction():
+    Account ID : 121099999 999988
+    Transaction type: OTHER: Other
+    Date initiated: Thu Jan 19 00:00:00 2006 CET
+    Total money amount: -277.57
+    # of units: 14.6860 (bonds: face value; options: contracts; all others: shares)
+    Unit price: 18.9000 (bonds: % of par; options: premium per share of underlying; all others: price per share)
+    Amounts are in foreign currency: No
+    Currency: USD
+    Ratio of default currency to currency: 1.0000
+    Financial institution's ID for this transaction: 212839062820295310723
+    Investment transaction type: BUYMF (Buy mutual fund)
+    Unique ID of the security being traded: 744316100
+    Format of the Unique ID: CUSIP
+    Buy type: BUY: Buy
+    Date 401(k) funds were deducted from payroll: Sat Jan 14 00:00:00 2006 CET
+    Source of 401(k) money: ROLLOVER
+    401(k) loan id: 2
+    401(k) loan interest (amount): 0.00
+    401(k) loan principle (amount): 277.57
+    Prior year 401(k) contribution: No
+    Funding sub account type: OTHER
+    Security sub account type: OTHER
+
+ofx_proc_transaction():
+    Account ID : 121099999 999988
+    Transaction type: OTHER: Other
+    Date initiated: Thu Jan 19 00:00:00 2006 CET
+    Total money amount: -38.22
+    # of units: 2.0220 (bonds: face value; options: contracts; all others: shares)
+    Unit price: 18.9000 (bonds: % of par; options: premium per share of underlying; all others: price per share)
+    Amounts are in foreign currency: No
+    Currency: USD
+    Ratio of default currency to currency: 1.0000
+    Financial institution's ID for this transaction: 212839062820510822977
+    Investment transaction type: BUYMF (Buy mutual fund)
+    Unique ID of the security being traded: 744316100
+    Format of the Unique ID: CUSIP
+    Buy type: BUY: Buy
+    Date 401(k) funds were deducted from payroll: Sat Jan 14 00:00:00 2006 CET
+    Source of 401(k) money: ROLLOVER
+    401(k) loan id: 2
+    401(k) loan interest (amount): 38.22
+    401(k) loan principle (amount): 0.00
+    Prior year 401(k) contribution: No
+    Funding sub account type: OTHER
+    Security sub account type: OTHER
+
+ofx_proc_transaction():
+    Account ID : 121099999 999988
+    Transaction type: OTHER: Other
+    Date initiated: Fri Jan  6 00:00:00 2006 CET
+    Total money amount: -92.09
+    # of units: 4.9010 (bonds: face value; options: contracts; all others: shares)
+    Unit price: 18.7900 (bonds: % of par; options: premium per share of underlying; all others: price per share)
+    Amounts are in foreign currency: No
+    Currency: USD
+    Ratio of default currency to currency: 1.0000
+    Financial institution's ID for this transaction: 212849815151950488609
+    Investment transaction type: BUYMF (Buy mutual fund)
+    Unique ID of the security being traded: 744316100
+    Format of the Unique ID: CUSIP
+    Buy type: BUY: Buy
+    Date 401(k) funds were deducted from payroll: Sat Dec 31 00:00:00 2005 CET
+    Source of 401(k) money: PRETAX
+    Prior year 401(k) contribution: Yes
+    Funding sub account type: OTHER
+    Security sub account type: OTHER
+
+XFAIL ../doc/ofx_sample_files/ofx-2.1.1-sect-13.13.ofx (exit status: 1)
