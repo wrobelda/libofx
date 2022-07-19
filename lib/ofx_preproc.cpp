@@ -44,6 +44,7 @@
 #ifdef __WIN32__
 # include "win32.hh"
 # include <windows.h> // for GetModuleFileName()
+# include <algorithm>
 # undef ERROR
 # undef DELETE
 #endif
