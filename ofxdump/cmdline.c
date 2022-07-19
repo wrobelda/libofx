@@ -21,7 +21,7 @@
 #define FIX_UNUSED(X) (void) (X) /* avoid warnings for unused params */
 #endif
 
-#include <getopt.h>
+#include "getopt.h"
 
 #include "cmdline.h"
 
@@ -395,7 +395,6 @@ int update_arg(void *field, char **orig_field,
   const char *val = value;
   int found;
   char **string_field;
-  FIX_UNUSED (field);
 
   stop_char = 0;
   found = 0;
@@ -498,8 +497,6 @@ cmdline_parser_internal (
 
   optarg = 0;
   optind = 0;
-  opterr = params->print_errors;
-  optopt = '?';
 
   while (1)
     {

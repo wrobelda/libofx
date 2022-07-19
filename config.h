@@ -55,50 +55,63 @@
 /* Define to 1 if you have the <sys/types.h> header file. */
 #define HAVE_SYS_TYPES_H 1
 
-/* Define to 1 if you have the <unistd.h> header file. */
-#define HAVE_UNISTD_H 1
+// Do not exist
+#undef HAVE_DLFCN_H
+#undef HAVE_GETOPT_H
+#undef HAVE_GETOPT_LONG
+#undef HAVE_INTTYPES_H
+#undef HAVE_STDINT_H
+#undef HAVE_STRINGS_H
+#undef HAVE_UNISTD_H
 
-/* Define to the sub-directory where libtool stores uninstalled libraries. */
-#define LT_OBJDIR ".libs/"
 
-/* Name of package */
-#define PACKAGE "libofx"
+// Unsure
+#define HAVE_ICONV 1
+#define HAVE_LIBXMLPP 1
 
-/* Define to the address where bug reports for this package should be sent. */
-#define PACKAGE_BUGREPORT ""
+#undef LIBCURL_FEATURE_ASYNCHDNS
 
-/* Define to the full name of this package. */
-#define PACKAGE_NAME ""
+/* Defined if libcurl supports IPv6 */
+#undef LIBCURL_FEATURE_IPV6
 
-/* Define to the full name and version of this package. */
-#define PACKAGE_STRING ""
+/* Defined if libcurl supports KRB4 */
+#undef LIBCURL_FEATURE_KRB4
 
-/* Define to the one symbol short name of this package. */
-#define PACKAGE_TARNAME ""
+/* Defined if libcurl supports libz */
+#undef LIBCURL_FEATURE_LIBZ
 
-/* Define to the home page for this package. */
-#define PACKAGE_URL ""
+/* Defined if libcurl supports SSL */
+#undef LIBCURL_FEATURE_SSL
 
-/* Define to the version of this package. */
-#define PACKAGE_VERSION ""
+/* Defined if libcurl supports DICT */
+#undef LIBCURL_PROTOCOL_DICT
 
-/* SP_MULTI_BYTE value from when OpenSP was compiled */
-#define SP_MULTI_BYTE 1
+/* Defined if libcurl supports FILE */
+#undef LIBCURL_PROTOCOL_FILE
 
-/* Define to 1 if you have the ANSI C header files. */
-#define STDC_HEADERS 1
+/* Defined if libcurl supports FTP */
+#undef LIBCURL_PROTOCOL_FTP
 
-/* Version number of package */
-#define VERSION "0.10.3"
+/* Defined if libcurl supports FTPS */
+#undef LIBCURL_PROTOCOL_FTPS
 
-/* Define WORDS_BIGENDIAN to 1 if your processor stores words with the most
-   significant byte first (like Motorola and SPARC, unlike Intel). */
-#if defined AC_APPLE_UNIVERSAL_BUILD
-# if defined __BIG_ENDIAN__
-#  define WORDS_BIGENDIAN 1
-# endif
-#else
-# ifndef WORDS_BIGENDIAN
-/* #  undef WORDS_BIGENDIAN */
-# endif
+/* Defined if libcurl supports GOPHER */
+#undef LIBCURL_PROTOCOL_GOPHER
+
+/* Defined if libcurl supports HTTP */
+#undef LIBCURL_PROTOCOL_HTTP
+
+/* Defined if libcurl supports HTTPS */
+#undef LIBCURL_PROTOCOL_HTTPS
+
+/* Defined if libcurl supports LDAP */
+#undef LIBCURL_PROTOCOL_LDAP
+
+/* Defined if libcurl supports TELNET */
+#undef LIBCURL_PROTOCOL_TELNET
+
+
+// MSVC Defines we seem to need
+#ifdef _MSC_VER
+typedef int ssize_t;
 #endif
